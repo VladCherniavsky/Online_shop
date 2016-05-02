@@ -5,24 +5,8 @@
     <link rel='stylesheet' href='css/main.css'>
     <link rel='stylesheet' href='css/font.css'>
     <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js'></script>
-    <script>
-        var app = angular.module('app', ['ngRoute'])
-                .config(function ($routeProvider) {
-                    $routeProvider
-                            .when ('/home', {
-                                templateUrl: 'index.html'
-                            })
-                            .when ('/products', {
-                                templateUrl: 'products.html'
-                            })
-                            .when ('/shopping', {
-                                templateUrl: 'shopping.html'
-                            })
-                            .when ('/contacts', {
-                                templateUrl: 'contacts.html'
-                            })
-                })
-    </script>
+    <script src='libs/angular_route.js'></script>
+    <script src='app.js'></script>
 </head>
 <body ng-app='app'>
 <div id='header'>
@@ -37,8 +21,15 @@
             <li><a href='#/shopping'>Shopping</a></li>
             <li><a href='#/contacts'>Contact</a></li>
         </ul>
-        <ng-view></ng-view>
     </div>
+    <a href='#'>
+    <div class='cart'>
+        <img src='img/cart_icon.png'>
+        <span>$0.00</span>
+        <div class='triangle'></div>
+    </div>
+    </a>
 </div>
 </div>
+<ng-view></ng-view>
 </body>

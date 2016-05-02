@@ -10,3 +10,9 @@
     font-style: normal;
     font-weight: normal;
 }
+@font-face {
+    font-family: "JosefinSlab";
+    src: url("../fonts/JosefinSlab/JosefinSlab.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

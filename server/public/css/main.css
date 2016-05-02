@@ -8,6 +8,7 @@ a {
 #header {
     background-color: #f2f2f2;
     opacity: 0.94;
+    min-height: 95px;
 }
 .wrapper {
     width: 1024px;
@@ -29,7 +30,8 @@ a {
     color: #06b5a9;
 }
 .menu_top_line {
-    margin-left: 183px;
+    margin-left: 150px;
+    float: left;
 }
 .menu_top_line ul li {
     list-style-type: none;
@@ -45,4 +47,233 @@ a {
 .menu_top_line a:hover, .menu_top_line a:active {
     color: #fcf0f1;
     background-color: #cf1a2b;
+}
+.cart {
+    display: inline-block;
+    margin: 32px 0px 0px 89px;
+}
+.cart span {
+    margin-left: 9px;
+    font-family: HelveticaNeue;
+    font-size: 24.05px;
+    color: #9d9d9d;
+}
+.triangle {
+    display: inline-block;
+    border: 6px solid transparent;
+    border-top: 12px solid #b2b2b2;
+}
+.promo_categories {
+    margin: 38px 0px 47px;
+}
+.activites, .ampersan, .bally, .discounts {
+    display: inline-block;
+    min-width: 223px;
+    padding: 23px 0px 24px 22px;
+    margin-right: 10px;
+}
+.discounts {
+    margin-right: 0px;
+}
+.activites {
+    background-color: #58dbd3;
+}
+.ampersan {
+    background-color: #e4ce9a;
+}
+.bally {
+    background-color: #ffa7ce;
+}
+.discounts {
+    background-color: #f2ca66;
+}
+.heading_activites {
+    padding-bottom: 29px;
+}
+.heading_activites h1,.ampersan_heading p, .activites_text p, .bally_heading p, .bally_text p, .text p, .motto p {
+    text-transform: uppercase;
+}
+.heading_activites h1, .ampersan_heading p, .bally_heading p {
+    font-family: HelveticaNeueBold;
+    font-size: 30.05px;
+    color: #ffffff;
+}
+.activites_text p {
+    line-height: 36px;
+}
+.activites_text {
+    padding-bottom: 31px;
+}
+.activites_text p {
+    font-family: HelveticaNeueBold;
+    font-size: 24.05px;
+    color: #ffffff;
+    line-height: 22px;
+}
+.activites_price p, .ampersan_price p, .bally_price p {
+    font-family: HelveticaNeueBold;
+    font-size: 49.35px;
+}
+.activites_price p {
+    color: #12867f;
+}
+.ampersan_price {
+    padding-top: 72px;
+}
+.ampersan_price p {
+    color: #5e4c38;
+}
+.bally_price p {
+    color: #414049;
+}
+.bally_price {
+    padding-top: 24px;
+}
+.activites_information, .ampersan_information, .bally_information, .discounts {
+    position: absolute;
+}
+.activites_image img {
+    position: relative;
+    top: -9px;
+    left: 91px;
+}
+.ampersan_image img {
+    position: relative;
+    top: 55px;
+    left: 80px;
+}
+.bally_heading p {
+    line-height: 32px;
+}
+.bally_text {
+    padding-top: 14px;
+}
+.bally_text p {
+    font-family: HelveticaNeueBold;
+    font-size: 20.05px;
+    color: #ffffff;
+}
+.bally_image img {
+    position: relative;
+    top: 67px;
+    left: 88px;
+}
+.count p {
+    font-family: HelveticaNeueBold;
+    font-size: 105.82px;
+    color: #ffffff;
+    direction: rtl;
+}
+.text {
+    padding-left: 33px;
+}
+.text p {
+    font-family: HelveticaNeueBold;
+    font-size: 64.25px;
+    color: #ffffff;
+}
+.motto {
+    width: 142px;
+    background-color: #ffffff;
+    margin-top: 12px;
+}
+.motto p {
+    font-family: HelveticaNeueBold;
+    font-size: 26.07px;
+    color: #f2ca66;
+}
+.categories {
+    background-image: url('../img/violet_zebra_bg.jpg');
+    background-repeat-y: no-repeat;
+
+}
+.heading_categories {
+    padding: 63px 0px 64px;
+    text-align: center;
+}
+.heading_categories h1 {
+    text-transform: uppercase;
+    font-family: JosefinSlab;
+    font-size: 116.05px;
+    color: #ffffff;
+}
+.kind_categories {
+    display: inline-block;
+    padding-bottom: 120px;
+}
+.left_empty_block, .women_shoes, .men_shirt, .men_trousers, .caps, .man_shoes {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #5ec3c7;
+    background-repeat: no-repeat;
+    float: left;
+    opacity: 0.7;
+}
+.women_shirt, .umbrellas, .right_empty_block {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: #5ec3c7;
+    background-repeat: no-repeat;
+    float: right;
+    opacity: 0.7;
+}
+.left_empty_block {
+    position: relative;
+    left: -108px;
+    top: 31px;
+}
+.women_shoes {
+    background-image: url('../img/women_shoes_icon.png');
+    background-position: 50px;
+    position: relative;
+    left: -144px;
+}
+.men_shirt {
+    background-image: url('../img/men_shirt_icon.png');
+    background-position: 42px;
+    position: relative;
+    top: 75px;
+    left: -198px;
+}
+.men_trousers {
+    background-image: url('../img/men_trousers_icon.png');
+    background-position: 68px;
+    position: relative;
+    top: 11px;
+    left: -238px;
+}
+.caps {
+    background-image: url('../img/cap_icon.png');
+    background-position: 38px;
+    position: relative;
+    top: 40px;
+    left: -272px;
+}
+.man_shoes {
+    background-image: url('../img/women_shoes_icon.png');
+    background-position: 50px;
+    position: relative;
+    top: 75px;
+    left: -305px;
+}
+.women_shirt {
+    background-image: url('../img/men_shirt_icon.png');
+    background-position: 42px;
+    position: relative;
+    top: -170px;
+    left: 175px;
+}
+.umbrellas {
+    background-image: url('../img/umberellas_icon.png');
+    background-position: 53px;
+    position: relative;
+    top: -110px;
+    left: 130px;
+}
+.right_empty_block {
+    position: relative;
+    top: -205px;
+    left: 67px;
 }

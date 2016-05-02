@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Asics shoes",
+    "logotype": "img/Asics_logotype.png",
+    "image_product_category": "img/Asics.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Nike air free",
+    "logotype": "img/Nike_air_free_logotype.png",
+    "image_product_category": "img/Nike_air_free.jpg"
+  }
+]
